@@ -1,0 +1,94 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+#container {
+  width:1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+}
+
+#avatar {
+  height: 200px;
+  border-radius: 10px;
+}
+
+#name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#login {
+  font-size: 20px;
+}
+
+.repoList {
+  border-bottom: 1px solid gray;
+  width: 500px;
+
+}
+
+h3 {
+  font-size: 22px;
+  padding: 25px;
+  font-weight: normal;
+}
+#nam {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#lang {
+  color: gray;
+}
+
+li{
+  list-style-type: none;
+}
+
+#repos{
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-weight: bold;
+}
+
+#tabBox{
+  display: flex;
+}
+
+#tabBox{
+  border-bottom: 2px solid grey;
+  margin-left: 20px;
+}
+
+form{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  border-bottom: 2px solid grey;
+}
+
+input{
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+#select1{
+  margin-right: 20px;
+}
+
+#select2{
+  margin-right: 20px;
+}
+
+button{
+  background-color: limegreen;
+  color: white;
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+}

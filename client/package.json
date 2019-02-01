@@ -11,7 +11,11 @@
     "redux": "^4.0.1"
   },
   "scripts": {
-    "start": "concurrently \"json-server db.json -p 3001\" \"cd client && npm start\""    
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "mv build/* ../server/public && rimraf build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
