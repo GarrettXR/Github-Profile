@@ -15,10 +15,10 @@ render() {
         <div>
             <div id="tabBox">
                 <div><h3 className="tabs">Overview</h3></div>
-                <div><h3 id="repos">Repositories</h3></div>
+                <div id="reaps"><h3 id="repos">Repositories</h3><h3 className="tab">{this.props.profile.public_repos}</h3></div>
                 <div><h3 className="tabs">Stars</h3></div>
-                <div><h3 className="tabs">Followers</h3></div>
-                <div><h3 className="tabs">Following</h3></div>
+                <div><h3 className="tabs">Followers {this.props.profile.followers}</h3></div>
+                <div><h3 className="tabs">Following {this.props.profile.following}</h3></div>
             </div>
             <form>
                 <input type="text" name="search" placeholder="Find a repository..." />

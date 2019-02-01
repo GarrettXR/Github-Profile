@@ -51,6 +51,7 @@ li{
   text-decoration: underline;
   text-decoration-color: red;
   font-weight: bold;
+  padding-right: 4px;
 }
 
 #tabBox{
@@ -91,4 +92,13 @@ button{
   height: 25px;
   width: 50px;
   border-radius: 5px;
+}
+
+#reaps{
+  display:flex;
+}
+
+.tab{
+  margin-left:0;
+  padding-left:0;
 }
